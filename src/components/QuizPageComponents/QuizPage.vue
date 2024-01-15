@@ -146,6 +146,7 @@ export default{
 
     @media(max-width: 380px){
         .page{
+            position: absolute;
             top: 210px;
         }
     }
