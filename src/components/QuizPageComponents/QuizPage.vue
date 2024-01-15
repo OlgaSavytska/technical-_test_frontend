@@ -147,9 +147,9 @@ export default{
     @media(max-width: 380px){
         .page{
             position: absolute;
-            top: 210px;
-            -webkit-transform: translate(0, 210px); /* ваше значение */
-            transform: translate(0, 210px)
+            top: 19% !important;
+            // -webkit-transform: translate(210px, 0); /* ваше значение */
+            // transform: translate(210px, 0)
         }
     }
 </style>
