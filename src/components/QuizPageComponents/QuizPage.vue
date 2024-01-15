@@ -148,6 +148,8 @@ export default{
         .page{
             position: absolute;
             top: 210px;
+            -webkit-transform: translate(0, 210px); /* ваше значение */
+            transform: translate(0, 210px)
         }
     }
 </style>
