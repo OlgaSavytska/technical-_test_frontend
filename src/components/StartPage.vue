@@ -38,12 +38,6 @@ export default{
         }, 1000)
 
         setTimeout(() => {
-            if (window.innerWidth <= 380){
-                this.openHeaderCard = false
-            }
-        }, 2000)
-
-        setTimeout(() => {
             this.pageParams = this.$refs.page.$el.getBoundingClientRect().height / 1.5
             this.startScene = true
         }, 300)
@@ -59,7 +53,7 @@ export default{
         handleScroll(){
             const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
             const scrollPercentage = (window.scrollY / totalHeight) * 100;
-            this.openHeaderCard = window.innerWidth >= 380 ? scrollPercentage <= 1 : false
+            this.openHeaderCard = scrollPercentage <= 1
         }
     }
 }

@@ -144,10 +144,11 @@ export default{
         }
     }
 
-    @media(max-width: 380px){
+    @media(max-width: 430px){
         .page{
             position: absolute;
-            top: 19% !important;
+            top: 24% !important;
+            // transform: translate(-50%, 210px);
             // -webkit-transform: translate(210px, 0); /* ваше значение */
             // transform: translate(210px, 0)
         }
